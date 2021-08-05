@@ -1,0 +1,474 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.carrusell img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.header{
+    width: 100%;
+}
+
+@media (min-width: 992px) { 
+
+    .carrusell img{
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .header nav div{
+        background-color: #de7d48;
+        padding: 25px;
+        margin-top: -10px;
+       
+       }
+
+       .bg-light {
+        background-color: #de7d48 !important;
+    }
+}
+
+.bg-light {
+    background-color: #de7d48 !important;
+}
+
+@media (max-width: 992px) { 
+
+    .header{
+        background-color: #de7d48;
+        padding: 1px 25px;
+        position:sticky;
+        top: 0px;
+        z-index: 1;
+       }
+
+       .bg-light {
+        background-color: #de7d48 !important;
+    }
+}
+
+a .logo{
+    width: 80px !important;
+    height: 80px !important;
+}
+
+h1{
+    color:rgb(105, 52, 2);
+}
+
+.header img:first-child{
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    position: relative;
+    opacity: 0.9;
+}
+
+.header img:nth-child(2){
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+    object-fit: cover;
+    position: relative;
+    
+}
+
+.header_container{
+    position: absolute; 
+    margin-left: 10px;
+    margin-top: -350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header_container-logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+.header_container h2{
+    color:black;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.header_header_container_nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+
+.header_header_container_nav li {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.header_header_container_nav li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 14px; 
+}
+
+.header_header_container_nav li a:hover{
+    text-decoration: underline;
+    color:black;
+    font-weight: bold;
+    font-size: 14px; 
+}
+
+#iconoNav{
+    display: none;
+}
+
+.header_header_container_menu{
+    width: 500px;
+}
+
+/* section inicio y catalogo....................................*/
+
+.card{
+    margin-top: 30px;  
+    margin-bottom: 20px;
+    border: none;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.card img:hover{
+   opacity: 0.8;
+}
+
+.cardHome{
+    margin: 10px;
+}
+
+.card .card-footer{
+    border: none;
+}
+
+.card-footer{
+    background-color: rgb(24, 153, 228);
+}
+
+.card-group{
+    margin-top: 30px;
+}
+
+
+.card-footer:hover{
+    transition: 0.5s;
+    background-color: #de7d48;
+    cursor: pointer;
+}
+
+.card-footer big{
+    color: white;
+}
+
+.divBtnCatalogo{
+     width: 80%;
+     margin: auto;
+     margin-top: 40px;
+     
+ }
+
+ #btnCatalogo{
+    background-color: rgb(222,134,87);
+    color: white;
+    border: none;
+    width: 25%;
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+ }
+
+ #btnCatalogo:hover{
+     opacity: 0.8;
+     cursor: pointer;
+ }
+
+/*.........................................................*/
+
+/* section Contacto*/
+
+.contactMain{
+    width: 100%;
+}
+
+.contactMain article div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 40px auto;
+    box-shadow: 1px 1px 20px 5px gray;;
+}
+
+.contactMain article div form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.contactMain article div img{
+    margin: 10px;
+    width: 45%;
+    object-fit: cover;
+}
+
+form button{
+    background-color: rgb(222,134,87);
+    color: white;
+    border: none;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+
+form button:hover{
+    opacity: 0.8;
+}
+
+
+/*..........................................................*/
+
+/* section Quienes Somos  .....................................................*/
+
+.mainQuienesSomos{
+    width: 100%;
+}
+
+.mainQuienesSomos_container{
+    width: 90%;
+    margin: auto; 
+}
+
+.mainQuienesSomos_container img{
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 5px 1px;
+}
+
+
+.mainQuienesSomos_container h2{
+    text-align: center; 
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.mainQuienesSomos_container p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 0px 0px 20px 20px;
+}
+
+/*.............................................................................*/
+
+/* section Articulo ...........................................*/
+
+.mainArticulo{
+    width: 100%;
+}
+
+.mainArticulo_articulo{
+    width: 85%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction:column;
+    box-shadow: 10px 10px 40px 10px gray;
+}
+
+
+.mainArticulo_articulo-firstDiv{
+    width: 100%;
+}
+
+.mainArticulo_articulo-secondDiv{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.mainArticulo_articulo-firstDiv img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.mainArticulo_articulo-secondDiv h2{
+    margin: 50px;
+    text-align: center;
+}
+
+.mainArticulo_articulo-secondDiv p{
+    margin: 20px;
+    font-size: 14px; 
+}
+
+.mainArticulo_articulo-thirdDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mainArticulo_articulo-thirdDiv a{
+    margin: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #009ee3;
+    border-radius: 10px;
+    padding: 10px;  
+}
+
+.mainArticulo_articulo-thirdDiv a:hover{
+    opacity: 0.8;
+}
+
+
+/*..............................................................*/
+
+/*Footer ........................................................*/
+
+footer{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+}
+
+footer div img{
+    width: 30px;
+    margin: 10px;
+    
+}
+
+footer div img:hover{
+    width: 30px;
+    margin: 10px;
+}
+
+.imgInicio{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    object-fit: cover;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+footer div:first-child{
+    height: 2px;
+    background-color: rgb(100, 75, 52);
+}
+
+/*...............................................................*/
+
+@media only screen and (max-width: 500px)  {  
+    
+nav{
+    display: none;
+}   
+    
+#iconoNav{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-left: 240px;
+}
+
+.header_header_container_menu{
+    width: 10px;
+    margin-right: 200px;
+}
+
+#iconoNav:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.header_header_container_menu:hover nav, nav:hover{
+    display: block;
+
+}
+
+.header_header_container_nav li{
+    margin: 0px;
+    margin-left: 120px;
+}
+
+.header_header_container_nav li a{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: white;
+    width: 100px;
+    box-shadow: rgb(49, 49, 49) 15px 5px 5px 1px;
+}
+
+.header_header_container_nav li a:hover{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 14px; 
+    background-color: rgb(222,134,87);
+    transition: 0.5s;
+}
+
+.contactMain article div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 40px auto;
+    box-shadow: 1px 1px 20px 5px gray;;
+    flex-wrap: wrap;
+}
+
+.contactMain article div form{
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.contactMain article div img{
+    margin: 10px auto;
+    width: 70%;
+    object-fit: cover;
+}
+
+.imgInicio{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+
+
+}
